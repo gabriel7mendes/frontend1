@@ -6,7 +6,7 @@
 }
 
 body {
-	background: #e8e8e8;
+	background: #fffafa;
 	min-height: 100vh;
 	display: flex;
 	align-items: center;
@@ -30,7 +30,7 @@ body {
 }
 
 .services-section h1 strong {
-	color: #6ab04c;
+	color: #6495ed;
 }
 
 .service {
@@ -44,7 +44,7 @@ body {
 	margin: auto;
 	background: #ecf6ff;
 	border-radius: 50%;
-	color: #6ab84c;
+	color: #6495ed;
 	line-height: 60px;
 	font-size: 25px;
 }
@@ -79,10 +79,10 @@ body {
 
 .owl-dot.active {
 	width: 36px;
-	background: #6ab04c !important;
+	background: #6495ed !important;
 }
 
 .owl-dot.hover {
 	width: 36px;
-	background: #6ab04c !important;
+	background: #6495ed !important;
 }
