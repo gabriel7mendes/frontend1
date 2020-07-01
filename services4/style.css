@@ -11,9 +11,8 @@ body {
 }
 
 .container {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
 }
 
 .container .box {
@@ -57,30 +56,12 @@ body {
 	transition: 1s;
 }
 
-.container .box:nth-child(1) .icon {
-	box-shadow: 0 0 0 0 #e91e63;
-	background: #e91e63;
-}
-
-.container .box:nth-child(1):hover .icon {
-	box-shadow: 0 0 0 400px #e91e63;
-}
-
-.container .box:nth-child(2) .icon {
-	box-shadow: 0 0 0 0 #23e629;
-	background: #23e629;
-}
-
-.container .box:nth-child(2):hover .icon {
-	box-shadow: 0 0 0 400px #23e629;
-}
-
-.container .box:nth-child(3) .icon {
+.container .box .icon {
 	box-shadow: 0 0 0 0 #2196f3;
 	background: #2196f3;
 }
 
-.container .box:nth-child(3):hover .icon {
+.container .box:hover .icon {
 	box-shadow: 0 0 0 400px #2196f3;
 }
 

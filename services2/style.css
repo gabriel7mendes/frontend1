@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 * {
 	margin: 0;
 	padding: 0;
-	font-family: sans-serif;
+	font-family: 'Poppins', sans-serif;
 }
 
 body {
@@ -55,28 +57,6 @@ h1 {
 	background: #fff;
 	margin: 50px auto;
 	position: relative;
-}
-
-.service h4::after {
-	content: '';
-	width: 40px;
-	height: 30px;
-	background: linear-gradient(to right, #fff, #007bff);
-	position: absolute;
-	right: -5px;
-	top: -5px;
-	z-index: -1;
-}
-
-.service h4::before {
-	content: '';
-	width: 40px;
-	height: 30px;
-	background: linear-gradient(to right, #007bff, #fff);
-	position: absolute;
-	left: -5px;
-	bottom: -5px;
-	z-index: -1;
 }
 
 .shadowOne {
