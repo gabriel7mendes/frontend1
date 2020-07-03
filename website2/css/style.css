@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+}
+
+.section-row {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+    align-items: center;
+}
+
+.section-col {
+	flex: 50%;
+}
+
+.inner-width {
+	max-width: 1000px;
+	overflow: hidden;
+	padding: 0 20px;
+	margin: auto;
+	text-align: center;
+}
+
+#home .inner-width,
+#home .section-row {
+	height: 100vh;
+}
+
+#home {
+	position: relative;
+	background: linear-gradient(45deg, #000080, #1e90ff);
+}
+
+#home:before {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 200px;
+	background: #fff;
+	clip-path: polygon(100% 50%, 0 100%,100% 100%);
+}
+
+.inner-width h1 {
+	margin: 0;
+	padding: 0;
+	color: #fff;
+	font-size: 40px;
+}
+
+.inner-width p {
+	color: #A9A9A9;
+}
+
+#home .inner-width p {
+	color: #fff;
+}
+
+.inner-width h2 {
+	margin: 0;
+	padding: 0;
+	font-size: 30px;
+}
+
+.challenges {
+	width: 400px;
+	height: 450px;
+} 
+
+.growth {
+	width: 400px;
+	height: 500px;
+} 
+
+.insights {
+	width: 650px;
+	height: 300px;
+}
+
+#presentation .section-row {
+	margin-top: 100px;
+} 
+
+.border {
+	width: 150px;
+	height: 3px;
+	background: #1e90ff;
+	margin: 20px auto;
+}
