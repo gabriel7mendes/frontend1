@@ -94,6 +94,10 @@ nav ul li.active a {
 	border-left-color: cyan; 
 }
 
+nav ul li a:hover{
+  background: #1e1e1e;
+}
+
 nav ul ul {
 	position: static;
 	display: none;
